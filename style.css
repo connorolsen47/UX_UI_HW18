@@ -5,6 +5,9 @@ html{
 .background{
 	background: #EEEEEE;
 	height: 750px;
+	width: 100%;
+	max-width: 1864px;
+	min-width: 375px;
 }
 
 .menu{
@@ -123,7 +126,24 @@ footer{
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 768px) {
+  .par {
+    margin-left: 30px;
+  } 
+  button {
+  	margin-left: 30px;
+  }
+  .menu{
+  	justify-content: center;
+  	width: 320px;
+  }
+
+@media only screen and (max-width: 375px) {
   .par {
     margin-left: 20px;
   } 
+  button {
+  	margin-left: 20px;
+  }
+
+
