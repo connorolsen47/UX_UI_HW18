@@ -1,0 +1,129 @@
+html{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.background{
+	background: #EEEEEE;
+	height: 750px;
+}
+
+.menu{
+	display: flex;
+	justify-content: flex-end;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	width: 100%;
+	margin-right: 50px;
+}
+
+.menu a{
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color: grey;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.par{
+	margin-left: 290px;
+	margin-top: 290px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25pt;
+}
+
+.par2{
+	margin-top: 100px;
+}
+
+button{
+	width: 222px;
+	height: 60px;
+	background: grey;
+	font-size: 18pt;
+	color: white;
+	border: 0pt;
+	margin-left: 290px;
+	margin-bottom: 100px;
+	box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.portfolio{
+	padding: 50px;
+	height: 100%;
+	text-align: left;
+	background-color: white;
+	color: black;
+	overflow: hidden;
+}
+
+.column{
+	padding: 40px;
+}
+
+.card{
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.container{
+	padding: 0 16px;
+}
+
+.title{
+	color: grey;
+	padding-bottom: 20px;
+}
+
+.images{
+	width: 100%;
+	height: 340px;
+	background: #83C4E6;
+}
+
+.images2{
+	width: 100%;
+	height: 340px;
+	background: #343E47;
+}
+
+.images3{
+	width: 100%;
+	height: 340px;
+	background: #FFFCD1;
+	}
+
+footer{
+	height: 100px;
+	width: 100%;
+	background: #EEEEEE;
+}
+
+.navBottom{
+	display: flex;
+	justify-content: flex-start;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18pt;
+	width: 100%;
+}
+
+.navBottom a{
+	float: left;
+	text-align: center;
+	padding: 40px 16px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .par {
+    margin-left: 20px;
+  } 
