@@ -108,6 +108,18 @@ button{
 	background: #FFFCD1;
 	}
 
+h1 {
+	text-align: center;
+}
+
+.mySkills {
+	text-align: center;
+	font-size: 18pt;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 100px;
+}
+
 footer{
 	height: 100px;
 	width: 100%;
@@ -172,13 +184,26 @@ footer{
   	height: 250px;
   }
 
+  .mySkills{
+  	margin-left: 50px;
+  	margin-right: 50px;
+  }
+}
+
+
 
 @media only screen and (max-width: 375px) {
   .par {
     margin-left: 20px;
   } 
+
   button {
   	margin-left: 20px;
   }
+
+  .mySkills{
+  	margin-bottom: 50px;
+  }
+}
 
 
